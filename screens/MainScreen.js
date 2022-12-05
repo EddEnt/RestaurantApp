@@ -1,7 +1,9 @@
 import { StyleSheet, Text, View } from "react-native";
 
 function MainScreen() {
-  <Text>Main Screen</Text>;
+  <View>
+    <Text>Home Page</Text>;
+  </View>;
 }
 
 export default MainScreen;
