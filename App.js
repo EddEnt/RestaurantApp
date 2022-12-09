@@ -19,7 +19,7 @@ export default function App() {
             name="MainScreen"
             component={MainScreen}
             options={{
-              title: "Home",
+              title: "Your Restaurant Guide",
               headerStyle: {
                 backgroundColor: "#258513",
               },
