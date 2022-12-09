@@ -6,6 +6,8 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
 import MainScreen from "./screens/MainScreen";
 import AboutScreen from "./screens/AboutScreen";
+import AddRestaurant from "./screens/AddRestaurant";
+import MyRestaurant from "./screens/MyRestaurant";
 
 const Stack = createNativeStackNavigator();
 
@@ -31,6 +33,8 @@ export default function App() {
             }}
           />
           <Stack.Screen name="AboutScreen" component={AboutScreen} />
+          <Stack.Screen name="MyRestaurant" component={MyRestaurant} />
+          <Stack.Screen name="AddRestaurant" component={AddRestaurant} />
         </Stack.Navigator>
       </NavigationContainer>
     </>
